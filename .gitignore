@@ -1,0 +1,72 @@
+#########################
+# .gitignore file for Xcode projects
+
+#########################
+#### OS X Files
+.DS_Store
+.Trashes
+*.swp
+
+#### Swift Package Manager
+/.build
+/.swiftpm
+
+#### Xcode temporary files
+DerivedData/
+build/
+
+#### Xcode settings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+xcuserdata/
+
+#### Xcode 11+ auto-generated files
+*.xcdebugger
+xcdebugger/
+
+#### XCFrameworks
+*.xcframework
+
+#### CocoaPods (if used)
+/Pods/
+Podfile.lock
+
+#### Carthage (if used)
+/Carthage/Build
+
+#### Fastlane (if used)
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+#### Firebase Crashlytics (if used)
+firebase_app_distribution/.firebase
+
+#### Test-related files
+test_output/
+*.xctestplan
+
+#### Visual Studio Code (if used)
+/.vscode/
+
+#### JetBrains IDEs (if used)
+/.idea/
+
+#### Ruby Gemfile.lock (optional)
+# Gemfile.lock
+
+# Optional tools (uncomment if used):
+# !Gemfile.lock
+# !Podfile.lock
+
+#### Ruby
+/.ruby-version
+/.ruby-gemset
+
+#### Uncomment below if using the "Pods" directory with CocoaPods
+#!Pods/
+
