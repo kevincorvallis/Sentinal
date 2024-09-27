@@ -7,6 +7,12 @@
 .Trashes
 *.swp
 
+# Xcode project settings (optional, only keep if necessary)
+TeachMeAI.xcodeproj/xcshareddata/
+
+# Firebase configuration file (should never be committed)
+TeachMeAI/GoogleService-Info.plist
+
 #### Swift Package Manager
 /.build
 /.swiftpm
